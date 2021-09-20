@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Floyd's HTML Demo Learning Site</title>
+        <title>Floyd's form HTML exercise #3</title>
     </head>
     <header>
-        <h1>Header of the page using h1 tag.</h1>
+        <h1>This is the form for Exercise  #3.</h1>
     </header>
 <body>
-    <h2>Please fill out the follwing information.</h2>
+    <h2>Please fill out the following information.</h2>
+    <form>
+        <label>Email:
+            <input type="email" name="email" value="" placholder="Please enter your email.">
+        </label>
+        <br>
+        <label>Password:
+            <input type="password" name="password" value="" placholder="Please enter your password.">
+        </label>
+        <br>
+        <label>Github Username:
+            <input type="username" name="username" value="" placholder="Please enter your Github username.">
+        </label>
+        <br>
+        <fieldset>
+            <legend>Please choose form the following options:</legend>
+            <input id="choice-enterprise" type="radio" name="choice" value="Enterprise">
+            <label for="choice-enterprise">Enterprise
+            </label>
+            <br>
+        
+            <input id="choice-pro" type="radio" name="choice" value="Pro">
+            <label for="choice-pro">Pro
+            </label>
+            <br>
+        
+            <input id="choice-free" type="radio" name="choice" value="Free">
+            <label for="choice-free">Free
+            </label>
+            <br>
+          </fieldset>
+
+        <input type="checkbox" name="remember me" value="">Remember Me:
+        <br>
+        <input type="button" value="Submit">
+    </form>
        
 </body>
 </html>
